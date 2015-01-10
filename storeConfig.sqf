@@ -761,12 +761,12 @@ colorsArray = compileFinal str
 			["AAF Green", "client\images\vehicleTextures\aaf.jpg"], // #(argb,8,8,3)color(0.546,0.59,0.363,0.2)
 			["Carbon", "client\images\vehicleTextures\carbon.jpg"],
 			["'Murica", "client\images\vehicleTextures\murica.jpg"],
-			["Confederate", "client\images\vehicleTextures\confederate.jpg"]
-			["420", "client\images\vehicleTextures\ganja.jpg"]
-			["Tentacles", "client\images\vehicleTextures\tentacle.jpg"]
-			["Purple Triangles", "client\images\vehicleTextures\tri_purple.jpg"]
-			["ZigZag", "client\images\vehicleTextures\zigzag.jpg"]
-			["IAm", "client\images\vehicleTextures\iam.jpg"]
+			["Confederate", "client\images\vehicleTextures\confederate.jpg"],
+			["420", "client\images\vehicleTextures\ganja.jpg"],
+			["Tentacles", "client\images\vehicleTextures\tentacle.jpg"],
+			["Purple Triangles", "client\images\vehicleTextures\tri_purple.jpg"],
+			["ZigZag", "client\images\vehicleTextures\zigzag.jpg"],
+			["IAm", "client\images\vehicleTextures\iam.jpg"],
 			["IAm (Tiled)", "client\images\vehicleTextures\iamsmall.jpg"]
 		]
 	],
