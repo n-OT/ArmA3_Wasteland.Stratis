@@ -759,18 +759,15 @@ colorsArray = compileFinal str
 			["NATO Tan", "client\images\vehicleTextures\nato.jpg"], // #(argb,8,8,3)color(0.584,0.565,0.515,0.3)
 			["CSAT Brown", "client\images\vehicleTextures\csat.jpg"], // #(argb,8,8,3)color(0.624,0.512,0.368,0.3)
 			["AAF Green", "client\images\vehicleTextures\aaf.jpg"], // #(argb,8,8,3)color(0.546,0.59,0.363,0.2)
-			["Trippy", "client\images\vehicleTextures\rainbow.jpg"],
 			["Carbon", "client\images\vehicleTextures\carbon.jpg"],
-			["Rusty", "client\images\vehicleTextures\rusty.jpg"],
-			["Denim", "client\images\vehicleTextures\denim.jpg"],
-			["Psych", "client\images\vehicleTextures\psych.jpg"],
-			["Leopard", "client\images\vehicleTextures\leopard.jpg"],
 			["'Murica", "client\images\vehicleTextures\murica.jpg"],
-			["Confederate", "client\images\vehicleTextures\confederate.jpg"],
-			["Yellow Camo", "client\images\vehicleTextures\camo_fuel.jpg"],
-			["Orange Camo", "client\images\vehicleTextures\camo_fack.jpg"],
-			["Red Camo", "client\images\vehicleTextures\camo_deser.jpg"],
-			["Pink Camo", "client\images\vehicleTextures\camo_pank.jpg"]
+			["Confederate", "client\images\vehicleTextures\confederate.jpg"]
+			["420", "client\images\vehicleTextures\ganja.jpg"]
+			["Tentacles", "client\images\vehicleTextures\tentacle.jpg"]
+			["Purple Triangles", "client\images\vehicleTextures\tri_purple.jpg"]
+			["ZigZag", "client\images\vehicleTextures\zigzag.jpg"]
+			["IAm", "client\images\vehicleTextures\iam.jpg"]
+			["IAm (Tiled)", "client\images\vehicleTextures\iamsmall.jpg"]
 		]
 	],
 	[ // Kart colors
@@ -800,8 +797,7 @@ customPlayerItems = compileFinal str
 	["Spawn Beacon", "spawnbeacon", localize "STR_WL_ShopDescriptions_spawnBeacon", "client\icons\briefcase.paa", 1500, 750],
 	["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\briefcase.paa", 200, 100],
 	["Syphon Hose", "syphonhose", localize "STR_WL_ShopDescriptions_SyphonHose", "client\icons\jerrycan.paa", 200, 100],
-	["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\water.paa", 100, 50],
-	["Warchest", "warchest", localize "STR_WL_ShopDescriptions_Warchest", "client\icons\briefcase.paa", 1000, 500]
+	["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\water.paa", 100, 50]
 ];
 
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
