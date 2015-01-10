@@ -29,7 +29,7 @@ savePlayerHandle = _this spawn
 			["UID", _UID],
 			["Name", name player],
 			["LastGroupSide", str side group player],
-			["LastPlayerSide", str playerSide]/*,
+			["LastPlayerSide", str playerSide],
 			["BankMoney", player getVariable ["bmoney", 0]] // Not implemented in vanilla mission
 		];
 
@@ -45,7 +45,8 @@ savePlayerHandle = _this spawn
 			["HitPoints", _hitPoints],
 			["Hunger", ["hungerLevel", 0] call getPublicVar],
 			["Thirst", ["thirstLevel", 0] call getPublicVar],
-			["Money", player getVariable ["cmoney", 0]] // Money is always saved, but only restored if A3W_moneySaving = 1
+			["Money", player getVariable ["cmoney", 0]],
+			["BankMoney", player getVariable ["bmoney", 0]]
 		];
 
 		// Only save those when on ground or underwater (you probably wouldn't want to spawn 500m in the air if you get logged off in flight)
