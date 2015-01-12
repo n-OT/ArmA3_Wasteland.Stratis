@@ -53,7 +53,7 @@ interact_deposit_other = {
 
 	[_player,-(_total_due)] call bank_transaction;
 
-	player groupChat format["You have sent $%1 to %2,your tax fee was $%3",strM(_amount),(name _target),strM(_tax_fee)];
+	player groupChat format["You have sent $%1 to %2, your tax fee was $%3",strM(_amount),(name _target),strM(_tax_fee)];
 
 	_receive_handler_name = format["bank_deposit_receive_%1", getPlayerUID _target];
 	missionNamespace setVariable[_receive_handler_name, [_target,_player,_amount]];
@@ -154,7 +154,7 @@ interact_withdraw = {
 	_bank_amount = [_player] call bank_get_value;
 
 	if (_amount > _bank_amount) exitWith {
-		player groupChat format["You do not have enough money on your bank account to withdraw $%1",strM(_amount)];
+		player groupChat format["You do not have enough money in your bank account to withdraw $%1",strM(_amount)];
 	};
 
 	[_player,-(_amount)] call bank_transaction;
