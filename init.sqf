@@ -36,7 +36,7 @@ if (!isDedicated) then
 {
 	[] spawn
 	{
-		9999 cutText ["Welcome to A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
+		9999 cutText ["Welcome to [IAm]Gaming Co. | Stratis Wasteland!", "BLACK", 0.01];
 
 		waitUntil {!isNull player};
 		removeAllWeapons player;
@@ -60,5 +60,7 @@ if (isServer) then
 //init 3rd Party Scripts
 [] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 [] execVM "addons\proving_ground\init.sqf";
+[] execVM "addons\scripts\simpleEP.sqf";
 [] execVM "addons\scripts\DynamicWeatherEffects.sqf";
 [] execVM "addons\JumpMF\init.sqf";
+
