@@ -24,7 +24,6 @@
 	["Town_17", 175, "Tsoukalia"],
 	["Town_18", 100, "LZ Connor"],
 	["Town_19", 180, "Playa-del-Stragos"],
-	["Town_20", 250, "ol-Jay"],
-	["Town_21", 1000, "Mullen Sea Forts"]
+	["Town_20", 250, "ol-Jay"]
 
 ]
