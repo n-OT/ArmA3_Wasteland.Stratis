@@ -749,23 +749,18 @@ colorsArray = compileFinal str
 			["Grey", "#(rgb,1,1,1)color(0.15,0.151,0.152,1)"], // #(argb,8,8,3)color(0.5,0.51,0.512,0.3)
 			["White", "#(rgb,1,1,1)color(0.75,0.75,0.75,1)"], // #(argb,8,8,3)color(1,1,1,0.5)
 			["Blue", "#(rgb,1,1,1)color(0,0.03,0.5,1)"], // #(argb,8,8,3)color(0,0.2,1,0.75)
-			["Green", "#(rgb,1,1,1)color(0,0.5,0,1)"], // #(argb,8,8,3)color(0,1,0,0.15)
 			["Red", "#(rgb,1,1,1)color(0.45,0.005,0,1)"], // #(argb,8,8,3)color(1,0.1,0,0.3)
 			["Pink", "#(rgb,1,1,1)color(0.5,0.03,0.3,1)"], // #(argb,8,8,3)color(1,0.06,0.6,0.5)
-			["Purple", "#(rgb,1,1,1)color(0.1,0,0.3,1)"], // #(argb,8,8,3)color(0.8,0,1,0.1)
-			["NATO Tan", "client\images\vehicleTextures\nato.jpg"], // #(argb,8,8,3)color(0.584,0.565,0.515,0.3)
-			["CSAT Brown", "client\images\vehicleTextures\csat.jpg"], // #(argb,8,8,3)color(0.624,0.512,0.368,0.3)
-			["AAF Green", "client\images\vehicleTextures\aaf.jpg"], // #(argb,8,8,3)color(0.546,0.59,0.363,0.2)
-			["'Murica", "client\images\vehicleTextures\murica.jpg"],			
-			["Carbon", "client\images\vehicleTextures\carbon.jpg"],			
+			["'Murica", "client\images\vehicleTextures\murica.jpg"],
+			["[IAm] Gaming Co.", "client\images\vehicleTextures\iam.jpg"],			
+			["M84 (Danish)", "client\images\vehicleTextures\m84.jpg"],			
 			["M90 (Swedish)", "client\images\vehicleTextures\m90.jpg"],			
 			["UCP (American)", "client\images\vehicleTextures\ucp.jpg"],
-			["Creeper", "client\images\vehicleTextures\creeper.jpg"],			
-			["Pot Leaf", "client\images\vehicleTextures\ganja.jpg"],
-			["Rasta", "client\images\vehicleTextures\rasta.jpg"],
-			["Gold", "client\images\vehicleTextures\gold.jpg"],
-			["Geometric", "client\images\vehicleTextures\geo.jpg"],
-			["[IAm] Gaming Co.", "client\images\vehicleTextures\iam.jpg"]
+			["MULTICAM (British)", "client\images\vehicleTextures\multicam.jpg"],
+			["CADPAT (Canadian)", "client\images\vehicleTextures\cadpat.jpg"],			
+			["Ricky", "client\images\vehicleTextures\tpb.jpg"],
+			["Creeper", "client\images\vehicleTextures\creeper.jpg"],
+			["Geometric", "client\images\vehicleTextures\geo.jpg"]
 		]
 	],
 	[ // Kart colors
