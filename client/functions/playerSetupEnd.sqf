@@ -12,6 +12,8 @@ _player addRating 9999999;
 [objNull, _player] call mf_player_actions_refresh;
 [] execVM "client\functions\playerActions.sqf";
 [player] execVM "addons\scripts\simpleEP.sqf";
+nul = [] execVM "addons\scripts\AUSMD_noMineMarker.sqf";
+
 
 
 _player groupChat "Wasteland - Initialization Complete";

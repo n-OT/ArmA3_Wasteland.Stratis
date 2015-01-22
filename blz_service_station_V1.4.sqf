@@ -40,7 +40,7 @@ blz_repair =
 
 		};
 
-		sleep sleeptimer_m;
+		sleep sleeptimer_s;
 	};
 };
 
@@ -60,11 +60,11 @@ blz_refuel=
 				{
 					titleText ["Refueling...[1/3]","PLAIN DOWN"];
 					sleep sleeptimer_s;
-					_object setFuel (_fuel + 1.0);
+					_object setFuel (_fuel + 3.0);
 					_fuel = fuel vehicle player;
 
 				};
-			sleep sleeptimer_m
+			sleep sleeptimer_s
 		};
 };
 
@@ -88,7 +88,7 @@ blz_rearm=
 					_object setAmmo [_weapon select _i, 10000];
 
 				};
-			sleep sleeptimer_m;
+			sleep sleeptimer_s;
 		};
 /*______________________________________________________________________________________________*/
 	_turrets = _object weaponsTurret [0];
