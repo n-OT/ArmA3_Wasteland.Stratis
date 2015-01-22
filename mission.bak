@@ -2051,7 +2051,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=397;
+		items=396;
 		class Item0
 		{
 			position[]={4483.8223,113.70655,6776.1753};
@@ -6285,24 +6285,24 @@ class Mission
 		class Item386
 		{
 			position[]={6330.3252,8.1706972,5341.2729};
-			azimut=-53.197701;
+			azimut=-53.197666;
 			id=543;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			text="gunstore_sign1_1";
-			init="this setObjectTexture [0, ""toms_gunstore.jpg""]; gunstore_sign1_1 allowDamage false; this setPos [ getPos this select 0, getPos this select 1, -1]";
+			init="this setObjectTexture [0, ""toms_gunstore.jpg""]; gunstore_sign1_1 allowDamage false;";
 		};
 		class Item387
 		{
 			position[]={2440.8867,73.700729,5676.9072};
-			azimut=-159.403;
+			azimut=-159.40269;
 			id=544;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			text="gunstore_sign1_1_1";
-			init="this setObjectTexture [0, ""toms_gunstore.jpg""]; gunstore_sign1_1 allowDamage false; this setPos [ getPos this select 0, getPos this select 1, -1]";
+			init="this setObjectTexture [0, ""toms_gunstore.jpg""]; gunstore_sign1_1 allowDamage false;";
 		};
 		class Item388
 		{
@@ -6357,29 +6357,29 @@ class Mission
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			text="repair_sign1_1";
-			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_1 allowDamage false; this setPos [ getPos this select 0, getPos this select 1, -1]";
+			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_1 allowDamage false;";
 		};
 		class Item393
 		{
-			position[]={2846.1433,44.874432,3697.3198};
-			azimut=-176.27699;
+			position[]={2847.7419,44.047489,3717.0962};
+			azimut=-77.277397;
 			id=550;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			text="repair_sign1_2";
-			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_2 allowDamage false; this setPos [ getPos this select 0, getPos this select 1, -1]";
+			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_2 allowDamage false;";
 		};
 		class Item394
 		{
 			position[]={4390.8657,227.35045,3814.0146};
-			azimut=90.091202;
+			azimut=-91.162148;
 			id=551;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			text="repair_sign1_3";
-			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_3 allowDamage false; this setPos [ getPos this select 0, getPos this select 1, -1]";
+			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_3 allowDamage false;";
 		};
 		class Item395
 		{
@@ -6390,18 +6390,7 @@ class Mission
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			text="repair_sign1_6";
-			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_6 allowDamage false; this setPos [ getPos this select 0, getPos this select 1, -1]";
-		};
-		class Item396
-		{
-			position[]={3971.9148,101.77487,5789.6167};
-			azimut=-172.47223;
-			id=553;
-			side="EMPTY";
-			vehicle="Land_Billboard_F";
-			skill=0.60000002;
-			text="gunstore_sign1_1_4_1";
-			init="this setObjectTexture [0, ""toms_gunstore.jpg""]; gunstore_sign1_1 allowDamage false;";
+			init="this setObjectTexture [0, ""rekt_repair.jpg""]; repair_sign1_6 allowDamage false;";
 		};
 	};
 	class Markers
@@ -7616,7 +7605,7 @@ class Mission
 			name="service_asmike";
 			text="Service Station";
 			type="loc_Fuelstation";
-			colorName="ColorYellow";
+			colorName="ColorRed";
 		};
 		class Item155
 		{
@@ -7624,7 +7613,7 @@ class Mission
 			name="service_airfield";
 			text="Service Station";
 			type="loc_Fuelstation";
-			colorName="ColorYellow";
+			colorName="ColorRed";
 		};
 		class Item156
 		{
@@ -7632,7 +7621,8 @@ class Mission
 			name="service_connor";
 			text="Service Station";
 			type="loc_Fuelstation";
-			colorName="ColorYellow";
+			colorName="ColorRed";
+			angle=-126.488;
 		};
 		class Item157
 		{
@@ -7640,7 +7630,7 @@ class Mission
 			name="service_killfarm";
 			text="Service Station";
 			type="loc_Fuelstation";
-			colorName="ColorYellow";
+			colorName="ColorRed";
 		};
 		class Item158
 		{
@@ -7648,7 +7638,8 @@ class Mission
 			name="service_midway";
 			text="Service Station";
 			type="loc_Fuelstation";
-			colorName="ColorYellow";
+			colorName="ColorRed";
+			angle=-126.488;
 		};
 	};
 	class Sensors
@@ -7744,8 +7735,9 @@ class Mission
 		class Item5
 		{
 			position[]={2855.6069,44.714828,3712.2739};
-			a=15;
-			b=15;
+			a=8;
+			b=8;
+			angle=-126.488;
 			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
