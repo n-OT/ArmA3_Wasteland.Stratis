@@ -26,7 +26,7 @@
 	["TERRITORY_JAY_COVE", "Jay Cove", 250, "TOWN"],
 	["TERRITORY_KAMINO_FIRING_RANGE", "Kamino Firing Range", 500, "MILITARY"],
 	["TERRITORY_KAMINO_SETTLEMENT", "Kamino Settlement", 250, "TOWN"],
-	["TERRITORY_KAMINO_MERCHANT", "Kamino Merchants", 500, "MILITARY"],
+	["TERRITORY_KAMINO_MERCHANTS", "Kamino Merchants", 500, "MILITARY"],
 	["TERRITORY_KILL_FARM", "Kill Farm", 250, "TOWN"],
 	["TERRITORY_LIMERI_BAY", "Limeri Bay", 250, "TOWN"],
 	["TERRITORY_LZ_BALDY", "LZ Baldy", 250, "MILITARY"],
@@ -34,5 +34,5 @@
 	["TERRITORY_PYTHOS", "Pythos Island", 250, "ISLAND"],
 	["TERRITORY_RADIO_TOWERS", "Radio Towers", 250, "MILITARY"],
 	["TERRITORY_MULLEN", "Mullen Sea Forts", 1000, "MILITARY"],
-	["TERRITORY_CARGO1", "Abandoned Cargo Tower", 500, "MILITARY"]
+	["TERRITORY_CARGOTOWER1", "Abandoned Cargo Tower", 550, "MILITARY"]
 ]
