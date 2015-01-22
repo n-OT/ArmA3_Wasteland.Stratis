@@ -6,7 +6,7 @@ _p = ["<t color='#ffff33'>Put in ear plugs</t>",{
 		1 fadeSound 1;
 		_s setUserActionText [_i,"<t color='#ffff33'>Put in ear plugs</t>"];
 	} else {
-		1 fadeSound 0.3;
+		1 fadeSound 0.2;
 		_s setUserActionText [_i,"<t color='#ffff33'>Take out ear plugs</t>"];
 	}
 },[],-90,false,true,"","_target == vehicle player"];
