@@ -1,29 +1,8 @@
 // ******************************************************************************************
 // * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
 // ******************************************************************************************
-#define welcomeText 3200
+
 #define tkWarningText 3500
-
-class WelcomeMessage {
-	idd = -1;
-	duration = 1e+011;
-	name= "WelcomeMessage";
-	onLoad = "uiNamespace setVariable ['WelcomeMessage', _this select 0]";
-
-	class controlsBackground {
-		class WelcomeMessage_Text:w_RscText
-		{
-			idc = welcomeText;
-			type = CT_STRUCTURED_TEXT;
-			size = 0.032;
-			x = 0; y = 0;
-			w = 1; h = 0.7;
-			colorText[] = {1,1,1,1};
-			colorBackground[] = {0,0,0,0};
-			text = "Welcome";
-		};
-	};
-};
 
 class TeamKillWarningMessage {
 	idd = -1;

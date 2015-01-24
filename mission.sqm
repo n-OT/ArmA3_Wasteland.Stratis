@@ -1839,7 +1839,7 @@ class Mission
 				class Item0
 				{
 					position[]={6390.1245,8.0446892,5360.7065};
-					azimut=308.27499;
+					azimut=401.26953;
 					id=146;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1959,8 +1959,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6384.4902,8.0600004,5354.126};
-					azimut=667.73779;
+					position[]={6384.353,8.0600004,5354.4912};
+					azimut=765.09827;
 					offsetY=1;
 					id=152;
 					side="LOGIC";
@@ -2022,7 +2022,7 @@ class Mission
 				class Item0
 				{
 					position[]={6394.6709,8.0233231,5366.1387};
-					azimut=308.39496;
+					azimut=402.40436;
 					offsetY=1;
 					id=155;
 					side="LOGIC";
@@ -6206,7 +6206,7 @@ class Mission
 		};
 		class Item376
 		{
-			position[]={6373.3906,8.0600004,5357.7114};
+			position[]={6372.9478,8.0600004,5357.0469};
 			azimut=-497.88943;
 			id=532;
 			side="EMPTY";

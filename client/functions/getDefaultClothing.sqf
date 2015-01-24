@@ -52,7 +52,7 @@ switch (_side) do
 			};
 		};
 
-		if (_item == "headgear") then { _result = "Headgear_H_HelmetIA" };
+		if (_item == "headgear") then { _result = "H_HelmetIA" };
 	};
 	case OPFOR:
 	{
@@ -76,7 +76,7 @@ switch (_side) do
 			};
 		};
 
-		if (_item == "headgear") then { _result = "Headgear_H_HelmetIA" };
+		if (_item == "headgear") then { _result = "H_HelmetIA" };
 	};
 	default
 	{
@@ -100,7 +100,7 @@ switch (_side) do
 			};
 		};
 
-		if (_item == "headgear") then { _result = "Headgear_H_HelmetIA" };
+		if (_item == "headgear") then { _result = "H_HelmetIA" };
 	};
 };
 
