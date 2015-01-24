@@ -31,7 +31,7 @@ _role3names = ["A3Wasteland v1.1"];
 _role4 = "Website";
 _role4names = ["www.iamgaming.co"];
 _role5 = "PayPal";
-_role5names = ["donate@iamgaming.co"];
+_role5names = ["teku@anticraft.info"];
 _role6 = "Please report any hackers or bugs to admins!";
 _role6names = ["Have Fun!"];
 
