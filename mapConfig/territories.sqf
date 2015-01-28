@@ -20,7 +20,7 @@
 	["TERRITORY_AIRBASE_SOUTH", "South Stratis Airbase", 750, "AIRBASE"],
 	["TERRITORY_AIRSTATION_MIKE", "Air Station Mike", 500, "MILITARY"],
 	["TERRITORY_CAMP_MAXWELL", "Camp Maxwell", 500, "MILITARY"],
-	["TERRITORY_CAMP_ROGAIN", "Camp Rogain", 1000, "MILITARY"],
+	["TERRITORY_CAMP_ROGAIN", "Camp Rogain", 2000, "MILITARY"],
 	["TERRITORY_CAMP_TEMPEST", "Camp Tempest", 250, "MILITARY"],
 	["TERRITORY_GIRNA", "Girna", 250, "TOWN"],
 	["TERRITORY_JAY_COVE", "Jay Cove", 250, "TOWN"],
@@ -33,7 +33,8 @@
 	["TERRITORY_LZ_CONNOR", "LZ Connor", 250, "MILITARY"],
 	["TERRITORY_PYTHOS", "Pythos Island", 250, "ISLAND"],
 	["TERRITORY_RADIO_TOWERS", "Radio Towers", 250, "MILITARY"],
-	["TERRITORY_MULLEN", "Mullen Sea Forts", 3000, "MILITARY"],
+	["TERRITORY_MULLEN", "Mullen Sea Forts", 4000, "MILITARY"],
 	["TERRITORY_SPARTAN", "Spartan Amphitheatre", 1500, "MILITARY"],
+	["TERRITORY_PROTEUS", "HMS Proteus", 8500, "MILITARY"],
 	["TERRITORY_CARGOTOWER1", "Abandoned Cargo Tower", 1300, "MILITARY"]
 ]
